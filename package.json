@@ -1,0 +1,20 @@
+{
+  "name": "mongo-rs-orchestrator",
+  "version": "0.0.1",
+  "description": "MongoDB ReplicaSet Orchestrator manages replica-sets on Railway",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc .",
+    "dev": "ts-node src/index..ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "replicaset",
+    "rs",
+    "railway"
+  ],
+  "author": "Fragly",
+  "license": "ISC"
+}
