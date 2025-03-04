@@ -4,9 +4,9 @@
   "description": "MongoDB ReplicaSet Orchestrator manages replica-sets on Railway",
   "main": "index.js",
   "scripts": {
-    "build": "tsc .",
-    "dev": "ts-node src/index..ts",
-    "start": "node dist/index.js"
+    "build": "tsc",
+    "dev": "ts-node ./src/index.ts",
+    "start": "node ./dist/index.js"
   },
   "keywords": [
     "mongodb",
@@ -16,5 +16,13 @@
     "railway"
   ],
   "author": "Fragly",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.9",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
